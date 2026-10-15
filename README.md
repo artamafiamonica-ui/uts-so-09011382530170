@@ -1,13 +1,8 @@
-# uts-so-09011382530170
-## Pengujian Backup
+## Pemeriksaan Hasil backup
+Setelah script backup dijalankan, hasil arsip dapat diperiksa melalui direktori backup. File log digunakan untuk melihat waktu pelaksanaan backup, nama arsip, jumlah file yang diproses, dan ukuran arsip.
 
-Untuk menjalankan script backup, gunakan perintah:
-     ./script/backup.sh
+Perintah untuk melihat hasil backup:
+    ls -lh ~/backup_09011382530170
 
-Untuk melihat hasil arsip backup:
-     ls -lh ~/backup_09011382530170
-
-Untuk melihat catatan log:
-     cat ~/backup_09011382530170.log
-
-Script mencari file berekstensi TXT di direktori sumber beserta subdirektorinya. Hasil backup disimpan dalam arsip terkompresi dan informasi backup dicatat ke file log.
+Perintah untuk melihat log:
+    cat ~/backup_09011382530170.log
